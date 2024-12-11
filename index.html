@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Pagina del League of Legends</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo-riot">
+                <img src="./assets/riot-games-2.0.png" alt="Imagen Riot Games" class="img-riot">
+                <img src="./assets/lol.jpg" alt="Imagen LoL" class="img-lol">
+            </div>
+
+            <div class="info-juego">
+                <span class="info">Informacion del juego</span>
+                <span class="info">Campeones</span>
+                <span class="info">Noticias</span>
+                <span class="info">Nota de versión</span>
+                <span class="info">Descubre</span>
+                <span class="info">Esport</span>
+                <span class="info">Universo</span>
+                <span class="info">Soporte</span>
+            </div>
+
+            <div class="search-container">
+                <img src="./assets/simbolo-de-la-interfaz-de-busqueda.png" alt="Buscar" class="search-icon" />
+                <input type="text" class="search-input" placeholder="Buscar..." />
+                <button class="btn-jugar">Jugar ahora</button>
+            </div>
+        </nav>
+
+        <section class="section-video">
+                <video src="./assets/primer-video.webm" autoplay loop muted class="video-lol"></video>
+
+            <div class="center-content">
+                <img src="./assets/foto-lueague-of-legends.avif" alt="" class="center-logo">
+                <button class="btn-jugar-gratis">Juega Gratis</button>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="container-noticia">
+                <p class="noticia">Noticias Destacadas</p>
+            </div>
+
+            <div class="contenedor-cards">
+                <div class="news-container">
+                    <img src="./assets/ambesa.webp" alt="" class="img-news">
+                    <div>
+                        <span class="upgrade-news">Actualizacion del juego</span>
+                        <span class="fecha-news">| 22/10/2024</span>
+                    </div>
+                    <p class="resume-news">Resumen de habilidades de Ambesa</p>
+                    <p class="play-ambesa">¡Sin piedad! Juega con Ambesa en la version 14.22</p>
+                </div>
+    
+                <div class="news-container">
+                    <img src="./assets/leona.webp" alt="" class="img-news">
+                    <div>
+                        <span class="upgrade-news">Actualizacion del juego</span>
+                        <span class="fecha-news">| 22/10/2024</span>
+                    </div>
+                    <p class="resume-news">Resumen de habilidades de Ambesa</p>
+                    <p class="play-ambesa">¡Sin piedad! Juega con Ambesa en la version 14.22</p>
+                </div>
+    
+                <div class="news-container">
+                    <img src="./assets/vi.webp" alt="" class="img-news">
+                    <div>
+                        <span class="upgrade-news">Actualizacion del juego</span>
+                        <span class="fecha-news">| 22/10/2024</span>
+                    </div>
+                    <p class="resume-news">Resumen de habilidades de Ambesa</p>
+                    <p class="play-ambesa">¡Sin piedad! Juega con Ambesa en la version 14.22</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="contenedor-campeones">
+            <!-- Columna Izquierda -->
+            <div class="campeon-info">
+                <p class="elegir-campeon">Elige tu</p>
+                <h2 class="campeon">CAMPEÓN</h2>
+                <p class="frase">Ya sea que prefieras lanzarte directo a la batalla, apoyar a tus compañeros de equipo, o algo intermedio, hay un lugar para ti en la Grieta.</p>
+                <div>
+                    <button class="descubrir-campeones">Descubrir más campeones</button>
+                    <button class="jugar-ahora">Juega ahora</button>
+                </div>
+                <div class="roles">
+                    <div data-role="asesinos">
+                        <img src="./assets/asesinos.webp" alt="Asesinos" class="img-rol">
+                        <p>Asesinos</p>
+                    </div>
+                    <div data-role="luchadores">
+                        <img src="./assets/luchadores.webp" alt="Luchadores" class="img-rol">
+                        <p>Luchadores</p>
+                    </div>
+                    <div data-role="magos">
+                        <img src="./assets/magos.webp" alt="Magos" class="img-rol">
+                        <p>Magos</p>
+                    </div>
+                    <div data-role="tiradores">
+                        <img src="./assets/tiradores.webp" alt="Tiradores" class="img-rol">
+                        <p>Tiradores</p>
+                    </div>
+                    <div data-role="soportes">
+                        <img src="./assets/soportes.webp" alt="Soportes" class="img-rol">
+                        <p>Soportes</p>
+                    </div>
+                    <div data-role="tanques">
+                        <img src="./assets/tanques.webp" alt="Tanques" class="img-rol">
+                        <p>Tanques</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna Derecha -->
+            <div class="campeon-imagen">
+                <img src="./assets/akali.webp" alt="Campeón Akali" class="imagen-campeon" id="imagen-principal">
+            </div>
+        </section>
+
+        <section class="contenedor-estilos">
+
+            <div class="campeon-imagen">
+                <img src="./assets/akali-skin.webp" alt="Akali con skin" class="imagen-campeon">
+            </div>
+
+            <div class="reference">
+                <p class="elegir-campeon-2">Domina con</p>
+                <h2 class="campeon-2">Estilo</h2>
+                <p class="frase-2">Cambia la apariencia de tus campeones favoritos con aspectos y personaliza tu estilo.</p>
+                <div>
+                    <button class="jugar-ahora-2">Juega ahora</button>
+                </div>
+            </div>
+
+        </section>
+        
+
+        <section class="contenedor-mapas">
+            <!-- Izquierda -->
+            <div class="mapas-foto">
+                <p class="p-mapa">Multiples maneras de</p>
+                <h2 class="h2-mapa">JUGAR</h2>
+                <button class="boton-mapa">Juega ahora</button>
+                <div class="mapas">
+                    <div class="mapa">
+                        <img src="./assets/gieta-del-invocador.webp" alt="Grieta del Invocador">
+                        <p>GRIETA DEL INVOCADOR</p>
+                    </div>
+                    <div class="mapa">
+                        <img src="./assets/aram.webp" alt="ARAM">
+                        <p>ARAM</p>
+                    </div>
+                    <div class="mapa">
+                        <img src="./assets/teamfhigt.webp" alt="Teamfight Tactics">
+                        <p>TEAMFIGHT TACTICS</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Derecha -->
+            <div class="mapas-video">
+                <video src="./assets/video-grieta.mp4" autoplay loop muted class="video"></video>
+                <span class="span-video">EL MODO DE JUEGO MAS POPULAR</span>
+                <p class="p-video">
+                    Despeja tu carril, sumérgete en batallas épicas en equipo de 5v5 y destruye el nexo enemigo 
+                    antes de que destruyan el tuyo.
+                </p>
+            </div>
+        </section>
+
+        <section class="contenedor-sylas">
+                <video src="./assets/video-sylas.mp4" autoplay loop muted class="video-sylas"></video>
+                <button class="boton-sylas">Juega gratis</button>
+        </section>
+
+        <section class="container-services">
+            <div class="acerca-de">
+                <p class="servicios">Acerca de League of Legends</p>
+                <p class="servicios">Ayúdanos a Mejorar</p>
+                <p class="servicios">Estado del Servicio</p>
+                <p class="servicios">Asistencia</p>
+                <p class="servicios">Descarga la aplicación Riot Mobile</p>
+            </div>
+        </section>
+
+
+        <section class="last-section">
+            <div class="container-final">
+                <div class="container-links">
+                    <ul class="links">
+                        <img src="./assets/icons8-youtube-50 (1).png" class="link" alt="youtube">
+                        <img src="./assets/icons8-x-30.png" class="link" alt="X">
+                        <img src="./assets/icons8-facebook-nuevo-50.png" class="link" alt="Facebook">
+                        <img src="./assets/icons8-instagram-50.png" class="link" alt="Instagram">
+                        <img src="./assets/icons8-reddit-50.png" class="link" alt="Reddit">
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="imagen-riot">
+                <img src="./assets/riot-games-negro-blanco.png" alt="" class="riot">
+                <p>™ & © 2024 Riot Games Inc. Todos los derechos reservados. Riot Games, League of Legends y PvP.net son marcas comerciales, marcas de servicios o marcas registradas de Riot Games, Inc.</p>
+            </div>
+
+            <div class="privacidad">
+                <p>Aviso de privacidad</p>
+                <p>Términos de servicio</p>
+                <p>Preferencias de cookies</p>
+
+            </div>
+            
+            <div class="container-adolescentes">
+                <div class="container-todo">
+                    <div class="T-adolescentes">
+                        <img src="./assets/T-adolescentes.png" alt="T-adolescentes">
+                    </div>
+        
+                    <div class="temas">
+                        <p>Sangre</p>
+                        <p>Violencia de fantasía</p>
+                        <p>Temas insinuantes moderados</p>
+                        <p>Uso de alcohol y tabaco</p>
+                        <p>Interacciones en línea no clasificadas por la ESRB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
