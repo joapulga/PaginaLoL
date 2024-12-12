@@ -12,7 +12,7 @@ body{
 
 .navbar{
     width: 100%;
-    background-color: rgb(14, 13, 13);
+    background-color: black;
     display: flex;
     align-items: center;
     height: 120px;
@@ -27,8 +27,8 @@ body{
 }
 
 .img-riot{
-    width: 90px;
-    height: 70px;
+    width: 200px;
+    height: 150px;
     gap: 10px;
 }
 
@@ -54,6 +54,8 @@ body{
 .search-container {
     display: flex;
     align-items: center;
+    position: relative; /* Necesario para posicionar el input respecto al contenedor */
+    gap: 10px; /* Separación entre elementos */
 }
 
 .search-icon {
@@ -63,6 +65,7 @@ body{
     background-color: grey;
     border-radius: 1rem;
     padding: 10px;
+    transition: transform 0.5s ease; /* Animación suave al abrir */
 }
 
 .search-input {
@@ -75,14 +78,18 @@ body{
     transition: all 0.5s ease;
     outline: none;
     position: absolute;
-    left: 60px; 
-    top: 0;
+    left: 0; /* Inicia junto al ícono de la lupa */
+    color: white;
+    font-size: 16px;
 }
 
 .search-input.show {
-    width: 200px; 
-    padding: 5px;
+    width: 200px;
+    padding: 15px;
     opacity: 1;
+    position: relative; /* Cambia posición relativa para alinearse bien */
+    background-color: #292929;
+    border-radius: 1rem;
 }
 
 .btn-jugar{
@@ -312,7 +319,6 @@ body{
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-    transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
 }
 
@@ -470,6 +476,7 @@ body{
     object-fit: cover;
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
 }
 
 .mapas-video {

@@ -1,11 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const searchIcon = document.querySelector(".search-icon");
-    const searchInput = document.querySelector(".search-input");
-
-    searchIcon.addEventListener("click", () => {
-        searchInput.classList.toggle("show");
-    });
-});
+function toggleSearch() {
+    const input = document.querySelector('.search-input');
+    input.classList.toggle('show');
+}
 
 const roleImages = {
     asesinos: './assets/akali.webp',
